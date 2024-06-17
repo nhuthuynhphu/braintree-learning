@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Braintree Payment</title>
+    <script src="https://js.braintreegateway.com/web/dropin/1.28.0/js/dropin.min.js"></script>
+    <style>
+      .container {
+        max-width: 400px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Braintree Payment</h2>
+      <div id="card-element"></div>
+      <button id="submit">Pay</button>
+      <div id="payment-message" class="hidden"></div>
+    </div>
+
+    <script src="client.js"></script>
+  </body>
+</html>
